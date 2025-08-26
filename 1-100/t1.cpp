@@ -2,8 +2,7 @@
 
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target)
-    {
+    vector<int> twoSum(vector<int>& nums, int target){
         vector<int> v = {0, 0};
         for (auto it1 = nums.begin(); it1!= nums.end(); it1++)
         {
